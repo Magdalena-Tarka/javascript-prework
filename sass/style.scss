@@ -1,0 +1,118 @@
+$color-one: white;
+$color-two: #FFF0F5;
+
+$font-one: 'Oswald', sans-serif;
+$font-two: 'Ubuntu', sans-serif;
+$font-three: 'Lora', serif;
+
+/* Global */
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+    text-align: center;
+}
+
+.wrapper {
+    margin: 0;
+    background: url(https://images.pexels.com/photos/2310713/pexels-photo-2310713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center center;
+    background-size: cover;
+    color: $color-one;
+}
+
+section {
+    min-height: 300px;
+    padding: 60px 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+p {
+    margin: 0;
+}
+
+/* Intro */
+
+.questions {
+    display: flex;
+    text-align: left;
+    font-family: $font-one;
+    padding: 56px 5px;
+    .left {
+        width: 50%;
+        padding: 20px;
+        align-items: flex-start;
+        min-height: 250px;
+        font-size: 42px;
+        display: flex;
+    }
+    .right {
+        width: 50%;
+        padding: 20px;
+        align-items: flex-end;
+        min-height: 250px;
+        display: flex;
+    }
+}
+
+h1 {
+        padding: 20px 0;
+        font-size: 36px;
+        font-family: $font-one;
+        text-transform: uppercase;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        span {
+            color: $color-two;
+        }
+    }
+
+.about {
+    padding: 40px 0;
+    ul.game-rules {
+        font-family: $font-two;
+        text-align: left;
+        li {
+            li {
+                list-style-type: none;
+            }
+        }
+    }
+}
+
+/* Game */
+
+section.game {
+    
+    button {
+        height: 60px;
+        width: 60px;
+        border: 3px solid white;
+        border-radius: 50%;
+        background-color: transparent;
+        color: $color-one;
+        margin: 20px;
+        font-size: 0px;
+        i {
+            font-size: 40px;
+        }
+        
+    }
+    
+    /*.result {
+        min-height: 30px;
+        min-width: 200px;
+        background: blue;
+    }*/
+}
+
+
+
+
+

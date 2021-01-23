@@ -1,0 +1,111 @@
+/* Global */
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 24px;
+  text-align: center;
+}
+
+.wrapper {
+  margin: 0;
+  background: url(https://images.pexels.com/photos/2310713/pexels-photo-2310713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-position: center center;
+  background-size: cover;
+  color: white;
+}
+
+section {
+  min-height: 300px;
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+p {
+  margin: 0;
+}
+
+/* Intro */
+.questions {
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  font-family: "Oswald", sans-serif;
+  padding: 56px 5px;
+}
+
+.questions .left {
+  width: 50%;
+  padding: 20px;
+  -ms-flex-align: start;
+      align-items: flex-start;
+  min-height: 250px;
+  font-size: 42px;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.questions .right {
+  width: 50%;
+  padding: 20px;
+  -ms-flex-align: end;
+      align-items: flex-end;
+  min-height: 250px;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+h1 {
+  padding: 20px 0;
+  font-size: 36px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+h1 span {
+  color: #FFF0F5;
+}
+
+.about {
+  padding: 40px 0;
+}
+
+.about ul.game-rules {
+  font-family: "Ubuntu", sans-serif;
+  text-align: left;
+}
+
+.about ul.game-rules li li {
+  list-style-type: none;
+}
+
+/* Game */
+section.game {
+  /*.result {
+        min-height: 30px;
+        min-width: 200px;
+        background: blue;
+    }*/
+}
+
+section.game button {
+  height: 60px;
+  width: 60px;
+  border: 3px solid white;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  margin: 20px;
+  font-size: 0px;
+}
+
+section.game button i {
+  font-size: 40px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,20 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Kamień, papier, nożyce</title>
-	<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Kamień, papier, nożyce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-	<div class="container">
-		<div id="buttons">
-		    <button id="play-rock">Kamień</button>
-		    <button id="play-paper">Papier</button>
-		    <button id="play-scissors">Nożyce</button>
-		</div>
-		<div id="messages"></div>
-	</div>
-	<script src="js/functions.js"></script>
-	<script src="js/script.js"></script>
+    <div class="wrapper">
+        <section class="intro">
+            <div class="container">
+                <div class="questions">
+                    <div class="left">
+                        <p>Pragniesz chwili relaxu..?</p>
+                    </div>
+                    <div class="right">
+                        <p>lub może od dziecka chciałes wygrać z komputerem..? ;)</p>
+                    </div>
+                </div>
+                <h1>najlepsza gra <span>papier, kamień, nożyce</span> online</h1>
+                <div class="about">
+                    <ul class="game-rules">
+                        <li>Gra składa się z kolejnych rund.</li>
+                        <li>W każdej turze obydwaj gracze wybierają Swój ruch.</li>
+                        <li>Gracz, który wybrał silniejszy symbol wygrywa.</li>
+                        <li>W przypadku pokazania dwóch takich samych symboli następuje remis – punktu brak.</li>
+                        <li>Oto hierarchia symboli:
+                            <ul>
+                                <li>nożyce są silniejsze od papieru, ponieważ go tną,</li>
+                                <li>kamień jest silniejszy od nożyc, ponieważ je tępi,</li>
+                                <li>papier jest silniejszy od kamienia, ponieważ go owija.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="game">
+            <div class="container">
+                <div id="buttons">
+                    <button id="play-rock"><i class="fas fa-hand-rock"></i>Kamień</button>
+                    <button id="play-paper"><i class="fas fa-hand-paper"></i>Papier</button>
+                    <button id="play-scissors"><i class="fas fa-hand-scissors"></i>Nożyce</button>
+                </div>
+                <div id="messages"></div>
+                <div id="result"></div>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/functions.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
